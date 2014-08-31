@@ -1,0 +1,56 @@
+<!--
+ /* Copyright (C) 2013 Giannis Kitromilides 
+ *
+ * @version    : 1.0
+ * @author     : Giannis Kitromilides (giannis.info) gkitromilides[at]gmail.com
+ * @author     : Giannis Kitromilides                     gkitromilides[at]gmail.com
+ *
+ * Data Management Systems Laboratory (DMSL)
+ * Department of Computer Science
+ * University of Cyprus
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * at your option) any later version.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ * Υou should have received a copy of the GNU General Public License
+ * along with this program. If not, see<http://www.gnu.org/licenses/> .
+ *
+ * **PEDOMETER CODE was found freely available at a public domain at 
+ * http://stackoverflow.com/questions/9895402/wp7-sdk-pedometer
+ * 
+ * ***The overall code about sensor usage is based heavily on WP8 dev samples.
+ */
+-->
+<resources>
+
+    <string name="app_name">SQLiteTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="insert_settings">Insert Settings</string>
+    <string name="pragma_setting">Pragma Settings</string>
+    <string name="title_activity_main">SQLite Testing</string>
+    <string name="Insert">Insert</string>
+     <string name="BulkInsert">Transaction Insert</string>
+     <string name="View">View</string>
+     <string name="DropTable">Drop table</string>
+     <string name="Write_Time">Write Time</string>
+     <string name="Read_Time">Read Time</string>
+     <string name="Delete_Time">Delete Time</string>
+     <string name="selectall">Threads</string>
+     <string name="BulkInsertAppent">Bulk Insert Appent</string>
+     <string name="journal">Journal_mode=MEMORY</string>
+     <string name="sync">PRAGMA synchronous=OFF</string>
+     <string name="vacuum1">PRAGMA auto_vacuum =1</string>
+     <string name="vacuum2">PRAGMA auto_vacuum =2</string>
+     <string name="create_table">Create New Table</string>
+     <string name="find_table">Get All Tables</string>
+     <string name="delete_from_table">Delete Row From Table</string>
+     <color name="blue">#b5d5f3</color>
+     <string name="cache2000">Cache Size=X</string>
+     
+      <string name="RepeatInser">Repeat Insert</string>
+</resources>
