@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"  >
+    
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <CheckBox
+        android:id="@+id/checkboxjournal"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/journal" />
+<CheckBox
+        android:id="@+id/checkboxsync"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sync" />
+<CheckBox
+        android:id="@+id/checkboxvacuum1"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vacuum1" />
+<CheckBox
+        android:id="@+id/checkboxvacuum2"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vacuum2" />
+<CheckBox
+        android:id="@+id/cache"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cache2000" />
+
+<CheckBox
+        android:id="@+id/index"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Index" />
+</LinearLayout>
+</FrameLayout>
